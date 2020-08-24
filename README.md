@@ -1,7 +1,7 @@
 # pyGT
 <strong>Python GUI Template</strong>
 <p>The GUI is made using <a href="https://pywebview.flowrl.com/guide/api.html">pywebview</a>, for how to use it please see the <a href="https://pywebview.flowrl.com/guide/api.html">pywebview api!</a></p>
-<hr>
+<hr><br><br>
 <h1>SearX</h1>
 for search engines
 
