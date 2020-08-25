@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="container">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" id="btncls" onclick="closeNav()">&times;</a>
+        <a href="#">Options 1</a>
+        <a href="#">Options 2</a>
+        <a href="#">Options 3</a>
+        <a href="#">Options 4</a>
+        </div>
+        <div id="con"><div id="icn" onclick="openNav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div></div>
+    <h1>Title</h1>
+    <input type="text" id="q" placeholder="Enter IP Target">
+</nav>
+<script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</body>
+</html> 
